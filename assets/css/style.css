@@ -1,0 +1,118 @@
+html, body {
+    color: #777777;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/hotel-wallpaper.png);
+    margin: 0;
+}
+header {
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+}
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inset {
+    width: 960px;
+    margin: 0 auto;
+}
+.logoname {
+    float: left;
+    background: #4aaaa5;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 10px;
+}
+.navigationlinks {
+    float: right;
+    margin: 0 auto;
+    font-size: large;
+    padding: 20px;    
+}
+a {
+    color: #777777;
+    text-decoration: none;
+}
+main {
+    width: 960px;
+    margin: auto;
+    clear: both;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.mainbio {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 30px; 
+    overflow: auto; 
+}
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aboutme, .portfolio, .contact{
+    color: #4aaaa5;
+}
+input, textarea{
+    width: 890px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form {
+    font-size: large;
+}
+.submitbtn {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: auto;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: medium;
+}
+footer {
+    overflow: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #666666;
+    border-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 8px;
+    text-align: center;
+    color: #ffffff;
+    font-size: small;
+    position: sticky;
+    width: 100%;
+    clear: both;
+}
+.profbtnrow1, .profbtnrow2, .profbtnrow3 {
+    float: left;
+    clear: both;
+}
+.portfoliobutton {
+    margin: 20px 40px 20px 0px;
+    width: 250px;
+    height: 200px;
+}
+.portbutton1, .portbutton2, .portbutton3, .portbutton4, .portbutton5 {
+    position: relative;
+    float: left;
+}
+.buttontext {
+    position: absolute;
+    bottom: 50px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 230px;
+    padding: 10px;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    font-size: larger;
+}
