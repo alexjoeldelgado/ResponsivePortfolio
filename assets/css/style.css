@@ -65,8 +65,8 @@ img {
     ;
 }
 input, textarea{
-    width: 890px;
-    margin-top: 10px;
+    width: 100%;
+    
     margin-bottom: 10px;
 }
 form {
@@ -78,6 +78,7 @@ form {
     width: auto;
     padding: 10px;
     margin: 0 auto;
+    margin-bottom: 10px;
     font-size: medium;
 }
 footer {
@@ -104,19 +105,32 @@ footer {
     width: 250px;
     height: 200px;
 }
-.portbutton1, .portbutton2, .portbutton3, .portbutton4, .portbutton5 {
-    position: relative;
-    float: left;
-}
+
 .buttontext {
     position: absolute;
     bottom: 50px;
     color: #ffffff;
     background-color: #4aaaa5;
-    width: 230px;
+    width: 250px;
     padding: 10px;
     margin: 0;
     font-size: medium;
     text-align: center;
     font-size: larger;
+}
+@media screen and (max-width: 640px) {
+
+    .navbar-brand, .navbar-nav  {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .portfoliobutton {
+        float: none;  
+    }
+    .container2 {
+        margin: 0;
+        width: 100%;
+    }
 }

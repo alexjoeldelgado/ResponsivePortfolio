@@ -3,19 +3,20 @@
     <title>Responsive Portfolio | About Me</title>
     <meta charset="UTF-8">
     <meta lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../ResponsivePortfolio/assets/css/style.css">
 </head>
 <body>
   <header>
-    <div class="container col-8 p-0">
+    <div class="container col-md-8 p-0">
       <div class="row">
         <div class="col-sm">
       <nav class="navbar navbar-dark p-0">
         <span class="navbar-brand mb-0"><h2>Alexander Delgado</h2></span>
       </nav>
       </div>
-      <div class="col-sm">
+      <div class="col-md ">
           <div class="navbar-nav mr-auto mt-3">
             <p><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a  href="contact.html">Contact</a></p>
         </div>
@@ -23,7 +24,7 @@
       </div>
     </div>
   </header>
-    <div class="container2 col-8">
+    <div class="container2 col-md-8 col-xs-12">
         <div class="row">
             <div class="col-sm-12 mt-3 aboutme">
                 <h2>About Me</h2>
@@ -32,7 +33,7 @@
         <hr>
         <div class="row">
             <div class="col-sm-12">
-                <img width="200" height="300" src="assets/images/profile.JPG" alt="profile">
+                <img src="assets/images/profile.JPG" class="img-fluid" alt="Responsive image">
                 <p>
                 My name is Alexander Delgado and I am a web developer. At least, I am starting to learn how to code. I am currently attending the UCF Coding Bootcamp and I cannot wait to jumpstart my career. I originally went to school for Hospitality Management, for which I almost graduated; but due to financial reasons, I was no longer able to attend classes. Since then, I have worked in the Hospitality field and I have developed solid work experience in Customer Service. It has been a great journey, but I have gotten to a point where I need to look out for my future and hone a skill I have always been interested in.
                 </p>
@@ -47,7 +48,9 @@
             </div>
         </div>
     </div>
-    <footer>
-        <h6>Copyright &copy;</h6>
+    <footer class="footer">
+      <div class="container">
+        <span><h6>Copyright &copy;</h6></span>
+      </div>
     </footer>
 </body>
