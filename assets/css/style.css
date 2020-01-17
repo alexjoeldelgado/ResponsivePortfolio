@@ -1,15 +1,17 @@
 html, body {
-    color: #777777;
+    color: black;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(../images/hotel-wallpaper.png);
+    background-image: url(../images/slytherin-background1.jpg);
     margin: 0;
 }
 header {
-    /* overflow: auto;
-    margin: 0 auto; */
-    background-color: #ffffff;
-    border-color: #cccccc;
+    background-color: #004403;
+    border-color: black;
     border-bottom-style: solid;
+}
+hr {
+    background-color: black;
+    height: 2px;
 }
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,8 +21,8 @@ h1, h2, h3 {
 }
 .navbar-brand {
     font-size: x-large;
-    background: #4aaaa5;
-    color: #ffffff;
+    background: silver;
+    color: black;
     padding: 10px;
 }
 .navbar-nav {
@@ -31,19 +33,19 @@ h1, h2, h3 {
        
 }
 
-a {
-    color: #777777;
+a, a:hover {
+    color: white;
     text-decoration: none;
+    
 }
 .container {
 
 }
 .container2 {
-    /* width: 960px; */
     margin: 0 auto;
     overflow: auto;
-    background: #ffffff;
-    border-color: #dddddd;
+    background: silver;
+    border-color: black;
     border-style: solid;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -61,20 +63,19 @@ img {
     margin-bottom: 10px;
 }
 .aboutme, .portfolio, .contact{
-    color: #4aaaa5;
+    color: black;
     ;
 }
 input, textarea{
     width: 100%;
-    
     margin-bottom: 10px;
 }
 form {
     font-size: large;
 }
 .submitbtn {
-    color: #ffffff;
-    background-color: #4aaaa5;
+    color: silver;
+    background-color: #004403;
     width: auto;
     padding: 10px;
     margin: 0 auto;
@@ -85,12 +86,12 @@ footer {
     overflow: auto;
     margin: 0 auto;
     padding-top: 20px;
-    background-color: #666666;
-    border-color: #4aaaa5;
+    background-color: #004403;
+    border-color: silver;
     border-top-style: solid;
     border-top-width: 8px;
     text-align: center;
-    color: #ffffff;
+    color: silver;
     font-size: small;
     position: sticky;
     width: 100%;
@@ -110,7 +111,7 @@ footer {
     position: absolute;
     bottom: 50px;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #004403;
     width: 250px;
     padding: 10px;
     margin: 0;
